@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: some-frontend-plugin
+  description: Test of the frontend plugin template
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: PatAKnight/some-frontend-plugin
+spec:
+  type: website
+  lifecycle: production
+  owner: user:default/pataknight
